@@ -15,10 +15,19 @@ enum Cautions: String {
     case invalidServer = "Invalid server data"
     case error = "Unable to convert serialized object to model: "
     case invalidImage = "Invalid Image found"
+    case dataFetch = "Error due to unable to fetch the data"
+    case invalidUrl = "Invalid URL : URL not found"
+    case decodeError = "Unable to decode the data"
 }
 
 enum TableViewCellId: String {
     case id1 = "ArtistTableViewCell"
 }
+
+enum Urls: String {
+    case artistDataUrl = "https://itunes.apple.com/search?term=a"
+}
+
+
 
 

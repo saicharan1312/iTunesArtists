@@ -20,9 +20,9 @@ struct ArtistsInfo: Codable {
     let results:[Artists]
 }
 
-
-
-
+struct ArtWork: Codable {
+    let artworkUrl160: String
+}
 
 
 
